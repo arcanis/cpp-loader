@@ -2,6 +2,12 @@
 
 > A C++ loader for Webpack
 
+## Installation
+
+```
+$> yarn add cpp-loader
+```
+
 ## Requirements
 
 - You will need a version of both Clang and the Libclang with a decent C++17 support to install the loader.
@@ -11,10 +17,27 @@ If you've installed emscripten for the first time, the first compilation will be
 
 ## Usage
 
+**webpack.config.js:**
+
+```javascript
+module.exports = {
+
+    // ...,
+
+    module: {
+        rules: [ {
+            test: /\.cc$/,
+            loader: 'cpp-loader'
+        } ]
+    }
+
+};
+```
+
 **index.js:**
 
 ```javascript
-import { addition } from './lib.cc';
+import { addition, range } from './lib.cc';
 
 console.log(addition(2, 2));
 console.log(range(10, 100));
