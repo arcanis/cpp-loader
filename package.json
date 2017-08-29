@@ -1,0 +1,13 @@
+{
+    "name": "cpp-loader",
+    "version": "1.0.0",
+    "scripts": {
+        "clang++": "clang++",
+        "llvm-config": "llvm-config",
+        "install": "clang++ $(llvm-config --cxxflags --ldflags) ./traverse/traverse.cc -lclang -o traverse.bin"
+    },
+    "dependencies": {
+        "@manaflair/emmagic": "^0.1.0",
+        "tmp": "^0.0.33"
+    }
+}
