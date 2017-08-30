@@ -7,7 +7,7 @@
         "install": "clang++ $(llvm-config --cxxflags --ldflags) ./traverse/traverse.cc -lclang -o traverse.bin"
     },
     "dependencies": {
-        "@manaflair/emmagic": "^0.1.0",
+        "@manaflair/emmagic": "^0.1.1",
         "tmp": "^0.0.33"
     }
 }

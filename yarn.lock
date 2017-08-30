@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@manaflair/emmagic@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@manaflair/emmagic/-/emmagic-0.1.0.tgz#48313198854c36a8fd49c8f4e3404cf89fdd79ec"
+"@manaflair/emmagic@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@manaflair/emmagic/-/emmagic-0.1.1.tgz#989d768019947f09302c0b45ef2423cd0bd6060d"
 
 os-tmpdir@~1.0.2:
   version "1.0.2"
